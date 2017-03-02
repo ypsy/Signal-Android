@@ -1,3 +1,5 @@
+This fork of Signal Android applies a few changes made by user f41c0r a while ago (his repository is based upon the WebSocket LibreSignal, which is outdated and no longer needed I guess) to fix an issue that makes it impossible to scan QR-Codes needed for pairing with the Desktop App. This workaround adds an option to manually enter the QR-Code URI after scanning it with an external app.
+
 # Signal Android 
 
 Signal is a messaging app for simple private communication with friends.
