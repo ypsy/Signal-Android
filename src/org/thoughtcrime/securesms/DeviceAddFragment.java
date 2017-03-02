@@ -94,8 +94,8 @@ public class DeviceAddFragment extends Fragment {
         }
         //TODO check for correctly formed input here before spamming the server with garbage
 
-        Uri uri = Uri.parse(url);
-        scanListener.onUrlFound(uri);
+        // Uri uri = Uri.parse(url); // Apparently the older scanListener method didn't read strings but Uri instead
+        scanListener.onQrDataFound(url);
       }
     });
 
